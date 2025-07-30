@@ -114,7 +114,8 @@ Predicted Category: Sci/Tech
 
 After 4 training epochs, the model achieves an **overall accuracy of \~94%** on the test set.
 
-- `\Model_Performances.png` 
+![Model Performance](Model_Performances.png)
+
 
 
 
