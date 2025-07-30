@@ -41,7 +41,7 @@ The model was trained for **4 epochs**. In each epoch:
 
 A **batch size of 8** we selected because NVIDIA GeForce GTX 1650 Ti GPU with **4GB of VRAM**. 
 
-- Here is GPU Information `GPU.png`
+- Here is GPU Information ![GPU](GPU.png)
 
 During training GPU stored the model weight, gradients, optimizer state and current batch data in memory. IF a used big batch size we may get the Cuda out-off memory error. 
 
