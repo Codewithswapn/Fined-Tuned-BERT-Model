@@ -13,7 +13,7 @@ Performance of a fine-tuned `distilbert-base-uncased` model on the AG News datas
 
 ## Classification Metrics
 
-- `Model_Performance.png`
+![Model Performance](Model_Performance.png)
 
 | Category   | Precision | Recall | F1-Score | Support |
 |------------|-----------|--------|----------|---------|
