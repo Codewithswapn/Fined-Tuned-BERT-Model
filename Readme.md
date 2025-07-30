@@ -12,6 +12,7 @@ This project classifies news articles into four categories — **World**, **Spor
 - `model.py`: Loads the pre-trained `distilbert-base-uncased`.
 - `training.py`: Train and fine-tune the model, evaluate on validation set, and save the final model.
 - `inference.py`: This file loads the saved trained model and tokenizer and classify new articles using the trained model.
+- `inference_data.py`: This file provide confusion matrix for test result on test dataset.
 
 ---
 
@@ -114,7 +115,8 @@ Predicted Category: Sci/Tech
 
 After 4 training epochs, the model achieves an **overall accuracy of \~94%** on the test set.
 
-![Model Performance](Model_Performances.png)
+![Model Performance](Model_Performance.png)
+
 
 
 
